@@ -16,7 +16,7 @@ class mainwin(QWidget):
         self.resize(600,300)
 
         layout = QGridLayout()
-        self.label1 = QLabel('北京理工大学珠海学院学生画像系统')
+        self.label1 = QLabel('学生信息管理系统')
         self.label1.setAlignment(Qt.AlignCenter)
         self.label1.setStyleSheet("color:rgb(200,20,20,255);font-size:30px")
 
